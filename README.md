@@ -6,7 +6,7 @@
   />
 </h1>
 
-<h2 align="center">React Avançado</h2>
+<h2 align="center">Boilerplate ReactJS</h2>
 
 <p align="center">
   <img
@@ -68,16 +68,6 @@
   <a href="#contribute">Contribuindo</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">Licença</a>
-</p>
-
-<br>
-
-<p align="center">
-  <img
-    alt="Página inicial do projeto."
-    src=".github/boilerplate.png"
-    width="100%"
-  />
 </p>
 
 <br>
