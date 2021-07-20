@@ -77,7 +77,6 @@
   📦 Projeto
 </h1>
 
-Projeto construído com base no curso de React Avançado do Willian Justen.
 Esse boilerplate visa facilitar a construção de novos projetos.
 
 <br>
