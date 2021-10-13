@@ -2054,15 +2054,15 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/cli@^6.3.4":
-  version "6.3.4"
-  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.3.4.tgz#0d8d675992c2ff9910a7e32fa43afa028cdf44da"
-  integrity sha512-lXODHx8tvhFWa5dCOzv7OQ5Oo19d6I1gdCw1KAFNSPc49xO6uKZGj9UT6gRGPj07dF2dlwnb+v4EyHEbxK+HuA==
+"@storybook/cli@^6.3.11":
+  version "6.3.11"
+  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.3.11.tgz#98b65ccace148d90601f29983287e1da7599bb01"
+  integrity sha512-yS8yBo/exdMp2TL4rCdRfdlIiSptsE3Kat3mSQqtXqmG7Sz3VLZgztrQ4LuL6x5YdkIa9BFEBS7FhyFKQ7XAiw==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/preset-env" "^7.12.11"
-    "@storybook/codemod" "6.3.4"
-    "@storybook/node-logger" "6.3.4"
+    "@storybook/codemod" "6.3.11"
+    "@storybook/node-logger" "6.3.11"
     "@storybook/semver" "^7.3.2"
     boxen "^4.2.0"
     chalk "^4.1.0"
@@ -2118,16 +2118,16 @@
     core-js "^3.8.2"
     global "^4.4.0"
 
-"@storybook/codemod@6.3.4":
-  version "6.3.4"
-  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-6.3.4.tgz#0c4361f1868fb64c57868939d478ef454d5269c5"
-  integrity sha512-zc99fxlYm/m7htkRCDUSerqvhZqEIfqxKrTokBOCfgyOAMiyQoewtvgAgDiu6CoTAhDjASJm5HCc+Qrn9/u8Rw==
+"@storybook/codemod@6.3.11":
+  version "6.3.11"
+  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-6.3.11.tgz#f0ffb285149ececbaedeb442d72a70660d575f99"
+  integrity sha512-NBKyGL/Pv8g6rxVnTt2UkAOi7xpG5j7kxkcfmKc/G67iLhILXRLlbtK/BbuDYSsg/QfKagxBXaiv/aUwbx5U7A==
   dependencies:
     "@babel/types" "^7.12.11"
     "@mdx-js/mdx" "^1.6.22"
     "@storybook/csf" "0.0.1"
-    "@storybook/csf-tools" "6.3.4"
-    "@storybook/node-logger" "6.3.4"
+    "@storybook/csf-tools" "6.3.11"
+    "@storybook/node-logger" "6.3.11"
     core-js "^3.8.2"
     cross-spawn "^7.0.3"
     globby "^11.0.2"
@@ -2298,6 +2298,26 @@
     "@storybook/core-client" "6.3.4"
     "@storybook/core-server" "6.3.4"
 
+"@storybook/csf-tools@6.3.11":
+  version "6.3.11"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-6.3.11.tgz#53e40158032902cdedf6fbbdee9953e92f4a9973"
+  integrity sha512-XI9E1nhoD3ALRmHPL6NTVxap6ryh64pJDQyYbji7zRblL+QyCywv6AwUUs00iwjWrLeuthusJ434aX/imATQSA==
+  dependencies:
+    "@babel/generator" "^7.12.11"
+    "@babel/parser" "^7.12.11"
+    "@babel/plugin-transform-react-jsx" "^7.12.12"
+    "@babel/preset-env" "^7.12.11"
+    "@babel/traverse" "^7.12.11"
+    "@babel/types" "^7.12.11"
+    "@mdx-js/mdx" "^1.6.22"
+    "@storybook/csf" "^0.0.1"
+    core-js "^3.8.2"
+    fs-extra "^9.0.1"
+    js-string-escape "^1.0.1"
+    lodash "^4.17.20"
+    prettier "~2.2.1"
+    regenerator-runtime "^0.13.7"
+
 "@storybook/csf-tools@6.3.4":
   version "6.3.4"
   resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-6.3.4.tgz#5c5df4fcb2bbb71cd6c04b2936ff2d6501562c24"
@@ -2367,6 +2387,17 @@
     webpack "4"
     webpack-dev-middleware "^3.7.3"
     webpack-virtual-modules "^0.2.2"
+
+"@storybook/node-logger@6.3.11":
+  version "6.3.11"
+  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-6.3.11.tgz#b17c48b8b8083ed9d06d01266af0736b13101dd4"
+  integrity sha512-c6nsOk/AIux89/AVIydLA2ToqHWq4XoUKFkYJ/eOPJTLv3bdl7fV/5Vlx7EqRHqlXYCGbvTaDrMs+0tVHmp2vg==
+  dependencies:
+    "@types/npmlog" "^4.1.2"
+    chalk "^4.1.0"
+    core-js "^3.8.2"
+    npmlog "^4.1.2"
+    pretty-hrtime "^1.0.3"
 
 "@storybook/node-logger@6.3.4":
   version "6.3.4"
